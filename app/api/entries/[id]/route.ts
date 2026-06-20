@@ -4,9 +4,10 @@ import { prisma } from '@/lib/db'
 // DELETE /api/entries/[id]
 export async function DELETE(
   _req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const id = Number(params.id)
+  const { id: rawId } = await params
+  const id = Number(rawId)
   if (isNaN(id)) return NextResponse.json({ error: 'Invalid id' }, { status: 400 })
 
   await prisma.workoutEntry.delete({ where: { id } })
