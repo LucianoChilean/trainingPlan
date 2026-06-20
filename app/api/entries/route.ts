@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/db'
+import type { WorkoutEntry } from '@prisma/client'
 
 // GET /api/entries?exerciseId=torsoA_ex0
 export async function GET(req: NextRequest) {
@@ -13,7 +14,7 @@ export async function GET(req: NextRequest) {
     orderBy: { savedAt: 'desc' },
   })
 
-  const entries = rows.map((r) => ({
+  const entries = rows.map((r: WorkoutEntry) => ({
     ...r,
     sets: JSON.parse(r.sets) as number[],
     savedAt: r.savedAt.toISOString(),

@@ -1,4 +1,10 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/entries/[id]/route": "app/api/entries/[id]/route.js",
+  "/entrenamiento/[slug]/page": "app/entrenamiento/[slug]/page.js",
+  "/api/export/route": "app/api/export/route.js",
+  "/api/entries/route": "app/api/entries/route.js",
+  "/page": "app/page.js",
   "/sesion/page": "app/sesion/page.js",
-  "/page": "app/page.js"
+  "/progresion/page": "app/progresion/page.js"
 }

@@ -1,20 +1,54 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-c1d4fb6a389bdb59.js",
+      "static/chunks/2200cc46-267a956d81b16192.js",
+      "static/chunks/945-3d4aedd36b71b2ac.js",
+      "static/chunks/main-app-99f09f7938c396d1.js",
+      "static/chunks/app/_not-found/page-0128430e659b99a0.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-c1d4fb6a389bdb59.js",
+      "static/chunks/2200cc46-267a956d81b16192.js",
+      "static/chunks/945-3d4aedd36b71b2ac.js",
+      "static/chunks/main-app-99f09f7938c396d1.js",
+      "static/css/77b8b44092ce9ace.css",
+      "static/chunks/788-f313deab5861a0dd.js",
+      "static/chunks/414-94dcbe84412704a1.js",
+      "static/chunks/app/layout-a89642a3ec03d9d4.js"
+    ],
+    "/entrenamiento/[slug]/page": [
+      "static/chunks/webpack-c1d4fb6a389bdb59.js",
+      "static/chunks/2200cc46-267a956d81b16192.js",
+      "static/chunks/945-3d4aedd36b71b2ac.js",
+      "static/chunks/main-app-99f09f7938c396d1.js",
+      "static/chunks/850-65ba07f9b06a8b24.js",
+      "static/chunks/414-94dcbe84412704a1.js",
+      "static/chunks/app/entrenamiento/[slug]/page-f2ae33f1bad80495.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-c1d4fb6a389bdb59.js",
+      "static/chunks/2200cc46-267a956d81b16192.js",
+      "static/chunks/945-3d4aedd36b71b2ac.js",
+      "static/chunks/main-app-99f09f7938c396d1.js",
+      "static/chunks/app/page-136618a696ed3293.js"
     ],
     "/sesion/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/sesion/page.js"
+      "static/chunks/webpack-c1d4fb6a389bdb59.js",
+      "static/chunks/2200cc46-267a956d81b16192.js",
+      "static/chunks/945-3d4aedd36b71b2ac.js",
+      "static/chunks/main-app-99f09f7938c396d1.js",
+      "static/chunks/788-f313deab5861a0dd.js",
+      "static/chunks/850-65ba07f9b06a8b24.js",
+      "static/chunks/414-94dcbe84412704a1.js",
+      "static/chunks/app/sesion/page-a3cdc96f10fab39c.js"
+    ],
+    "/progresion/page": [
+      "static/chunks/webpack-c1d4fb6a389bdb59.js",
+      "static/chunks/2200cc46-267a956d81b16192.js",
+      "static/chunks/945-3d4aedd36b71b2ac.js",
+      "static/chunks/main-app-99f09f7938c396d1.js",
+      "static/chunks/app/progresion/page-121d871af5633879.js"
     ]
   }
 }
